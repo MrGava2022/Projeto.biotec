@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <style>
+        /* Seus estilos CSS vão aqui */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Loja de Roupas</h1>
+    </header>
+    <nav>
+        <a href="#">Página Inicial</a>
+        <a href="#">Roupas Masculinas</a>
+        <a href="#">Roupas Femininas</a>
+        <a href="#">Contato</a>
+    </nav>
+    <div class="container">
+        <h2>Roupas Masculinas</h2>
+        <div class="product">
+            <img src="https://www.google.com/aclk?sa=l&ai=DChcSEwjEz8S967iAAxWDSH8AHY8VDjsYABADGgJvYQ&ase=2&sig=AOD64_2B3htFv-xCR5h0ePat_450J5QdhQ&ctype=5&nis=5&adurl&ved=2ahUKEwjc7rG967iAAxXnqZUCHbIzBmMQwg96BAgBEDQ" alt="Camisa Masculina">
+            <h3>Camisa Masculina</h3>
+            <p>Preço: R$ 50,90</p>
+            <p>Descrição: Camisa de algodão sofisticado.</p>
+        </div>
+
+        <div class="product">
+            <img src="caminho_para_sua_imagem_de_produto.jpg" alt="Calça Jeans Masculina">
+            <h3>Calça Jeans Masculina</h3>
+            <p>Preço: R$ 124,90</p>
+            <p>Descrição: Calça Jeans Azul-Cobalto com costura de alta qualidade.</p>
+        </div>
+
+        <!-- Adicione mais produtos de Roupas Masculinas conforme necessário -->
+
+        <h2>Roupas Femininas</h2>
+        <div class="product">
+            <img src="caminho_para_sua_imagem_de_produto.jpg" alt="Vestido Feminino">
+            <h3>Vestido Feminino</h3>
+            <p>Preço: R$ 76,82</p>
+            <p>Descrição: Vestido de malha ideal para dias quentes com estampa floral que alegra seu look. </p>
+        </div>
+
+        <div class="product">
+            <img src="caminho_para_sua_imagem_de_produto.jpg" alt="Blusa Feminina">
+            <h3>Blusa Feminina</h3>
+            <p>Preço: R$ 63,32</p>
+            <p>Descrição: Casaco de lã de Lhama bege, macio e fofo para os mais intensos invernos. </p>
+        </div>
+
+        <!-- Adicione mais produtos de Roupas Femininas conforme necessário -->
+    </div>
+</body>
+
+</html>
